@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.UserProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="593dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/simpleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Reserve Time"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/Member type EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Member type"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/AddressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+
+            android:hint="Member ID"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/CityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Class Room type"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/PinCodeExitText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Date for reservation"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/PinCodeExitText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Time"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/UpdateProfileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Save" />
+
+
+</LinearLayout>
